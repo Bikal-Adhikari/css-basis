@@ -1,0 +1,85 @@
+/* Basic selectors */
+/* 
+div {
+  color: blue;
+} */
+
+/* #fifth {
+  color: red !important;
+} */
+
+/* .pg {
+  color: yellowgreen;
+} */
+/* 
+#fifth {
+  color: yellow !important;
+} */
+
+/* Descendant (space) */
+/* section p {
+  background-color: black;
+  color: white;
+} */
+
+/* Child (>) */
+/* section > p {
+  color: red;
+} */
+
+/* Adjacent (+) */
+/* section + div {
+  color: cyan;
+  font-size: 32px;
+} */
+
+/* Sibling (~) */
+/* section ~ div {
+    background: #000;
+    color: white;
+} */
+
+/* section div > p {
+  color: red;
+} */
+
+/* [Attribute-Name] */
+/* [href] {
+  text-decoration: none;
+  font-size: 24px;
+} */
+/* [Attribute-Name=”value”] */
+/* [href="contact.html"] {
+  color: red;
+  font-size: 32px;
+} */
+/* element[Attribute-Name] */
+/* a[href="contact.html"] {
+  color: red;
+  font-size: 32px;
+} */
+
+/* 4. Pseudo-elements Selector */
+/* p::first-line {
+  background-color: yellow;
+}
+
+p::first-letter {
+  font-size: 32px;
+} */
+
+/* 4. Pseudo-class Selector */
+
+/* a:hover {
+  color: red;
+  font-size: 32px;
+  text-decoration: none;
+} */
+
+/* p:nth-child(3){
+    color: red;
+} */
+
+/* p:nth-child(odd) {
+  color: red;
+} */
